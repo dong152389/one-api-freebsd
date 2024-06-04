@@ -23,7 +23,7 @@ jobs:
           github-token: ${{ secrets.PAT_TOKEN }}
           script: |
               await github.rest.actions.createWorkflowDispatch({
-              owner: 'k0baya',
+              owner: 'dong152389',
               repo: 'one-api-freebsd',
               workflow_id: 'build.yml',
               ref: 'main'
